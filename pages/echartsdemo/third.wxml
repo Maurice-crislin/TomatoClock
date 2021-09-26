@@ -1,0 +1,5 @@
+<!--pages/echartsdemo/third.wxml-->
+
+<view class="container">
+  <ec-canvas id="mychart-dom-graph" force-use-old-canvas="true" canvas-id="mychart-graph" ec="{{ ec }}"></ec-canvas>
+</view>

@@ -1,0 +1,16 @@
+<!--pages/uiTest/test.wxml-->
+
+<view class="timer_main">
+ 
+
+<view class="timer_button_con">
+ <view class="timer_button  {{isRunning ? 'timer_button_run': 'timer_button_pause'}} "bindtap='timeBtnClick'>{{timer+"mins"}}</view>
+</view>
+<view ><button type="primary" size="12" plain='true'  bindtap="pauseBtnClick" class="pauseTime-btn"> {{pauseBtnTxt}} </button></view>
+<canvas  canvas-id="myCanvas" class="canvas"></canvas>
+
+
+</view>
+
+
+

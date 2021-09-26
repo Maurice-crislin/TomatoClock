@@ -1,0 +1,6 @@
+/* pages/echartsdemo/fourth.wxss */
+
+ec-canvas {
+  width: 100%;
+  height: 100%;
+}

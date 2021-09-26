@@ -1,0 +1,73 @@
+/* pages/uiTest/test.wxss */
+
+
+/*lightcyan*/
+
+page {
+    background-color: #F5F5F5;
+}
+
+.timer_main {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+}
+
+.timer_button_con {
+    display: flex;
+    justify-content: center;
+    padding-top: 50rpx;
+    padding-bottom: 40rpx;
+}
+
+.timer_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    width: 160px;
+    height: 160px;
+    margin: 0 10px;
+    border-radius: 50%;
+    animation: headRotate 6s linear infinite;
+    background-color: #00BFFF;
+}
+
+.timer_button_run {
+    animation-play-state: running;
+}
+
+.timer_button_pause {
+    animation-play-state: paused;
+}
+
+
+/*animation-play-state: running;*/
+
+@keyframes headRotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.pauseTime-btn {
+    border: rgba(24, 92, 131, 0.699) 2px solid!important;
+    width: 100px !important;
+    color: rgb(15, 93, 196) !important;
+    font-size: large !important;
+    letter-spacing: 2rpx !important;
+    font-family: -apple-system, BlinkMacSystemFont, SF Pro SC, SF Pro Text, Helvetica Neue, Helvetica, PingFang SC, Segoe UI, Roboto, Hiragino Sans GB, arial, SimSun, sans-serif !important;
+}
+
+.canvas {
+    width: 100vh;
+    height: 250px;
+}

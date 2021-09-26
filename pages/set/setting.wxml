@@ -1,0 +1,23 @@
+<!--pages/setting/setting.wxml-->
+
+
+
+<view class="resizeBlock">
+  <view class="resizeBlock-tip">番茄钟时间调节</view>
+  <view>
+    <slider show-value max="45" min="0" step="1" value="{{timer}}"activeColor="lightblue" 
+    block-size="30" block-color="lightblue"bindchange="changeTimer"/>
+  </view> 
+</view>
+
+<view class="resizeBlock">
+  <view class="resizeBlock-tip">暂停时间调节</view>
+  <view>
+    <slider show-value max="5" min="0" step="1" value="{{pauseTime}}"activeColor="lightblue" 
+    block-size="30" block-color="lightblue"bindchange="changePauseTime"/>
+  </view> 
+</view>
+
+
+
+

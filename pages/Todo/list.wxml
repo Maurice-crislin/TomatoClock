@@ -1,0 +1,30 @@
+<!--pages/Todo/list.wxml-->
+
+<scroll-view scroll-y scroll-top='{{topNum}}' bindscroll="scrolltoupper">
+<icon bindtap="goTop" type="download" class="goUp" size="40"></icon>
+ <view class="weui-cells ">
+  <div class="weui-cell">
+    <div class="weui-cell__bd ">
+      <input class="weui-input" placeholder="输入你的todo吧"  value='{{inputText}} 'type="text" bindinput="callBackInput" />
+      <a href="javascript:;" class="submitBtn weui-btn weui-btn_primary weui-btn_mini" bindtap="callBacksubmit" >保存</a>
+    </div>
+  </div>
+ </view>
+
+ <view class='container-list'>
+  <block wx:for="{{todolists}}" wx:key="index" >
+    <view class='text-content'>{{item.goal}}
+     
+      <view class='text-content-time'>{{item.plannedTime}} 
+        <view>
+          <view class="text-content-button" id="{{index}}" bindtap="onBtnClick">做完啦</view>
+          <view  class="text-content-button" id="{{index}}" bindtap="onBtnClick">删除</view>
+        </view>
+      </view> 
+    </view> 
+   
+  </block>
+ </view>
+</scroll-view>
+
+

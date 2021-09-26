@@ -1,0 +1,73 @@
+/* pages/Todo/list.wxss */
+
+
+/* page设置当前窗口背景色*/
+
+page {
+    background-color: #F5F5F5
+}
+
+.goUp {
+    position: fixed;
+    transform: rotate(180deg);
+    right: 80rpx;
+    bottom: 60rpx;
+}
+
+.weui-cells {
+    margin-left: 30rpx;
+    margin-right: 30rpx;
+    border-radius: 10px;
+    background-color: rgba(48, 128, 128, 0.075);
+    border-bottom: 10px solid rgba(60, 117, 113, 0.3);
+}
+
+.weui-input {
+    height: 130rpx;
+    border-radius: 10px 0 10px 0;
+    background-color: #F5F5F5;
+}
+
+.submitBtn {
+    display: inline-block;
+    margin-top: 60rpx;
+    background-color: rgba(24, 92, 131, 0.699);
+}
+
+
+/*定义.container设置容器样式*/
+
+.container-list {
+    padding: 10px 20px;
+    align-content: center;
+}
+
+
+/* 定义.text-content设置文本样式*/
+
+.text-content {
+    letter-spacing: 1px;
+    font-family: -apple-system, BlinkMacSystemFont, SF Pro SC, SF Pro Text, Helvetica Neue, Helvetica, PingFang SC, Segoe UI, Roboto, Hiragino Sans GB, arial, SimSun, sans-serif;
+    padding: 10px;
+    align-content: center;
+    border-bottom: 50rpx solid #F5F5F5;
+    background-color: #FFFFFF;
+}
+
+.text-content-button {
+    display: inline-block;
+    margin-top: 8rpx;
+    margin-left: 15rpx;
+    padding-left: 10rpx;
+    padding-right: 10rpx;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #B0E0E6;
+}
+
+.text-content-time {
+    border-top: 4rpx #F5F5F5 solid;
+}

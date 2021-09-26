@@ -1,0 +1,23 @@
+/* pages/setting/setting.wxss */
+page {
+  background-color: #F5F5F5
+}
+.section{padding: 10px}
+.section.icon-wrapper{height: 100px; font-size: 12px;}
+.resizeBlock{
+  margin: 20rpx;
+  margin-top: 40rpx;
+  padding: 10px;
+  border-radius: 10px;
+  border-top:2px rgba(0, 0, 0, 0.205) solid;
+  border-bottom:2px rgba(0, 0, 0, 0.205) solid;
+  border-left:5px lightsteelblue  solid;
+  border-right:5px lightsteelblue  solid;
+  background-color:#FFFFFF ;
+}
+.resizeBlock-tip{
+  font-family: -apple-system, BlinkMacSystemFont, SF Pro SC, SF Pro Text, Helvetica Neue, Helvetica, PingFang SC, Segoe UI, Roboto, Hiragino Sans GB, arial, SimSun, sans-serif;
+  letter-spacing: 5rpx;
+  font-weight: 400;
+  text-align: center;
+}

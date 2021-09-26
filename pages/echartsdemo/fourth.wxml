@@ -1,0 +1,4 @@
+<!--pages/echartsdemo/fourth.wxml-->
+<view class="container">
+  <ec-canvas id="mychart-dom-graph" canvas-id="mychart-graph" ec="{{ ec }}"></ec-canvas>
+</view>

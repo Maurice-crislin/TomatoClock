@@ -1,0 +1,55 @@
+{
+    "pages": [
+        "pages/main/main",
+        "pages/echartsdemo/second",
+        "pages/echartsdemo/fourth",
+       
+        "pages/Todo/list",
+        "pages/set/setting",
+
+        
+        "pages/echartsdemo/third",
+
+
+        "pages/echartsdemo/first",
+
+        "pages/index/index",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#87CEEB",
+        "navigationBarTitleText": "番茄时钟",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#a9b7b7",
+        "selectedColor": "#11cd6e",
+        "borderStyle": "white",
+        "list": [{
+                "iconPath": "img/night.jpg",
+                "selectedIconPath": "img/wechat.png",
+                "pagePath": "pages/main/main",
+                "text": "首页"
+            },
+            {
+                "iconPath": "img/night.jpg",
+                "selectedIconPath": "img/wechat.png",
+                "pagePath": "pages/echartsdemo/second",
+                "text": "统计"
+            }, {
+                "iconPath": "img/night.jpg",
+                "selectedIconPath": "img/wechat.png",
+                "pagePath": "pages/Todo/list",
+                "text": "待做列表"
+            }, {
+                "iconPath": "img/night.jpg",
+                "selectedIconPath": "img/wechat.png",
+                "pagePath": "pages/set/setting",
+                "text": "设置"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}
